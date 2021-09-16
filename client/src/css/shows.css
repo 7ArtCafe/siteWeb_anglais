@@ -1,0 +1,97 @@
+.show{
+    background: 
+        url("../images/test.png"),
+        rgba(0, 0, 0);
+    background-size: cover;}
+.titre-shows{
+    font-family: quizine;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.description{
+    font-family: bernier_shade;
+    font-size: 20px;
+    margin-top: 20px;
+    color: black;
+}
+.show-body{
+    margin: 0 8% 0 8%;
+}
+.description_date{
+    font-family: bernier_shade;
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+.container-shows{
+    margin-top: 40px;
+    padding-top: 40px;
+}
+.img-artistes{
+    max-height: 250px;
+}
+.titre-artistes{
+    font-family: quizine;
+    font-size: 70px;
+    margin-bottom: 30px;
+    text-shadow: #ffffff 1px 1px, #ffffff -1px 1px, #ffffff -1px -1px, #ffffff 1px -1px;
+}
+.container-artistes{
+    margin-top: 20px;
+    background-image: url("../images/texture1.jpg");
+    background-size: cover;
+    border-radius: 15px;
+}
+h2 + p, .cont-blanc{
+    text-shadow: #ffffff 1px 1px, #ffffff -1px 1px, #ffffff -1px -1px, #ffffff 1px -1px;
+}
+.height-video{
+    height: 500px;
+}
+
+/* Version mobile */
+@media only screen and (max-width: 600px) {
+    .titre-shows{
+        font-family: quizine;
+        font-size: 80px;
+    }
+    .titre-artistes{
+        font-family: quizine;
+        font-size: 40px;
+        margin-bottom: 30px;
+        text-shadow: #ffffff 1px 1px, #ffffff -1px 1px, #ffffff -1px -1px, #ffffff 1px -1px;
+    }
+    .container-artistes{
+        margin-top: 20px;
+        padding-bottom: 70px;
+        background-image: url("../images/texture1.jpg");
+        background-size: cover;
+        border-radius: 15px;
+    }
+    .show-body{
+        margin: inherit;
+    }
+}
+
+/* Version tablette */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .titre-artistes{
+        font-family: quizine;
+        font-size: 40px;
+        margin-bottom: 30px;
+        text-shadow: #ffffff 1px 1px, #ffffff -1px 1px, #ffffff -1px -1px, #ffffff 1px -1px;
+    }
+    .container-artistes{
+        margin-top: 20px;
+        padding-bottom: 40px;
+        background-image: url("../images/texture1.jpg");
+        background-size: cover;
+        border-radius: 15px;
+    }
+    .show-body{
+        margin: inherit;
+        padding: 40px;
+        box-shadow: inherit;
+    }
+}

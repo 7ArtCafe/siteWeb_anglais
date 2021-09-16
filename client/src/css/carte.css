@@ -1,0 +1,195 @@
+.header-bar{
+    padding: 95px 0px 15px 0px;
+    background: linear-gradient(0.0turn, #422626,#000000  );
+    /* background: #422626; */
+    /* background: #252525; */
+    color: white;
+}
+.img_menus{
+    max-width: 100%;
+    height: auto;
+}
+.titre_menus{
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu_click{
+    cursor: pointer;
+}
+.description{
+    font-size: 17px;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+}
+.prix{
+    color: white;
+    margin: 130px 0 0 500px;
+    font-size: 30px;
+}
+
+/* nouveau css */
+
+.header-carte{
+    margin-bottom: 50px;
+}
+.affichage-carte{
+    background-image: url("../images/texture2.jpg");
+    background-size: cover;
+    margin: 0 8% 0 8%;
+    padding: 40px;
+    box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.2);
+}
+.img-titre-carte{
+    background-position: center center;
+    background-size: contain;
+    /* width: 600px;
+    height: auto; */
+}
+.titre-carte{
+    font-size: 8em;
+    margin-bottom: 70px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    /* font-family: tommy_lee; */
+    font-family: quizine;
+    text-shadow: #ffffff 1px 1px, #ffffff -1px 1px, #ffffff -1px -1px, #ffffff 1px -1px;
+}
+.description-carte{
+    font-size: 20px;
+    font-family: bernier_shade;
+    color: chocolate;
+    margin: 10px auto 0 auto;
+    
+}
+.img-contenue-carte{
+    margin: 0 40px 10px 40px;
+    width: 300px;
+    height: auto;
+}
+.img-carte{
+    margin: 0 40px 10px 40px;
+    width: 400px;
+    height: auto;
+}
+.text-img-carte{
+    margin: 50px 150px 20px 170px;
+    color: chocolate;
+}
+.img-border{
+    background-image: url("../images/brick-wall-blur-1834784_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+.img-petite-viande{
+    margin: 70px 0 0 0;
+}
+.description-petite-img{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.description-burger-carte{
+    font-size: 60px;
+    color: chocolate;
+    height: 100px;
+    font-family: the_secret;
+}
+.imgtourne{
+    border-radius: 100px;
+    margin-left: 0px;
+    -webkit-animation:spin 100s linear infinite;
+    -moz-animation:spin 100s linear infinite;
+    animation:spin 100s linear infinite;
+}
+.moyenne-marge-haute{
+    margin: 70px 0 0 0;
+}
+.description-produit{
+    margin-top: 70px;
+    font-size: 25px;
+    font-family: bernier_shade;
+    color: chocolate;
+}
+.text-important{
+    font-family: quizine;
+    font-size: 40px;
+    color: rgb(197, 139, 97);
+    padding-left: 4px;
+}
+/* Version mobile */
+@media only screen and (max-width: 600px) {
+    .affichage-carte{
+        background-image: url("../images/texture2.jpg");
+        background-size: cover;
+        margin: 0;
+        padding: 20px;
+        box-shadow: none;
+    }
+    .img-border{
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+    }
+    .titre-carte{
+        font-size: 6em;
+        margin-bottom: 0px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-family: quizine;
+        text-shadow: #ffffff 1px 1px, #ffffff -1px 1px, #ffffff -1px -1px, #ffffff 1px -1px;
+    }
+    .header-carte{
+        margin-bottom: 50px;
+    }
+    .description-produit{
+        margin-top: 10px;
+        font-size: 15px;
+        font-family: bernier_shade;
+        color: chocolate;
+    }
+    .img-contenue-carte{
+        margin: 0 40px 10px 40px;
+        width: 300px;
+        height: auto;
+    }
+    .description-carte{
+        font-size: 16px;
+        font-family: bernier_shade;
+        color: chocolate;
+        margin: 10px auto 0 auto;
+        
+    }
+    .text-important{
+        font-family: quizine;
+        font-size: 33px;
+        color: rgb(197, 139, 97);
+        padding-left: 4px;
+    }
+    .img-titre-carte{
+        background-position: center center;
+        background-size: contain;
+        margin-top: 15px;
+    }
+    .nav-carte{
+        font-size: 13px;
+    }
+}
+/* Version Tablette */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .affichage-carte{
+        background-image: url("../images/texture2.jpg");
+        background-size: cover;
+        margin: 0;
+        padding: 20px;
+        box-shadow: none;
+    }
+    .description-produit{
+        margin-top: 0px;
+        font-size: 25px;
+        font-family: bernier_shade;
+        color: chocolate;
+    }
+}

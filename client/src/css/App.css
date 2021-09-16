@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'the_secret';
+  src: url('../polices/TheSecret-Regular.ttf');
+}
+@font-face {
+  font-family: 'tommy_lee';
+  src: url('../polices/Tommy Lee.ttf');
+}
+@font-face {
+  font-family: 'bella';
+  src: url('../polices/bellafont.otf');
+}
+@font-face {
+  font-family: 'alex_brush';
+  src: url('../polices/AlexBrush-Regular.ttf');
+}
+@font-face {
+  font-family: 'quizine';
+  src: url('../polices/FontsFree-Net-Quizine-Regular.ttf');
+}
+@font-face {
+  font-family: 'bernier_shade';
+  src: url('../polices/BERNIERShade-Regular.otf');
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

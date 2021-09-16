@@ -1,0 +1,42 @@
+.corps-ban{
+    margin: 0 0 60px 0;
+    /* text-align: center; */
+    background-color: chocolate;
+    border: solid black 2px;
+}
+.titre-ban{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-family: bernier_shade;
+}
+.corps-link-ban{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 0 10px 0;
+    background-color: white;
+    font-family: bernier_shade;
+}
+.img-redirection{
+    width: 85px;
+    height: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    .titre-ban{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 40px;
+        font-family: bernier_shade;
+    }
+    .corps-link-ban{
+        margin-top: 10px;
+        background-color: white;
+        font-family: bernier_shade;
+        font-size: 2em;
+    }
+    .img-redirection{
+        width: 50px;
+        height: auto;
+    }
+}

@@ -1,0 +1,31 @@
+.footer{
+    background: linear-gradient( #14171a, #343a40 150% );
+}
+.copy-text{
+    margin-top: 5em;
+    text-align: center;
+}
+.lien-logo{
+    margin: 10px;
+}
+.content-logo{
+    height: 130px;
+}
+.res_sociaux{
+    margin-top: 30px;
+}
+@media only screen and (min-width: 601px) and (max-width: 1028px) {
+    .text-snap{
+        font-size: 9px;
+    }
+}
+/* Version mobile */
+@media only screen and (max-width: 600px) {
+    .copy-text{
+        margin: 30px 0 20px 0;
+        text-align: center;
+    }
+    .text-snap{
+        font-size: 12px;
+    }
+}

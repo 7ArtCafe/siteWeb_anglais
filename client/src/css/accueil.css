@@ -1,0 +1,80 @@
+@media only screen and (min-width: 601px) {
+    .acc{
+        background-image: url("../images/IMG-20210322-WA0028-blur.jpg");
+        background-size:cover;
+    }
+    .slider{
+        padding: 70px 30px 10px 30px;
+        background: linear-gradient(0.35turn, #FFFFFF, #000000 100% );
+        border-bottom: solid black 2px;
+    }
+    /* Pour la version ordinateur */
+    .contenu_accueil{
+        background-color: #555d66;
+        padding: 2% 10% 2% 10%
+    }
+    
+    .img_contenu_accueil{
+        width: 600px;
+        max-height: auto;
+        margin-top: 20px;
+    }
+
+    .citation{
+        font-size: 30px;
+        font-family: bernier_shade;
+        background-color: #14171a;
+        color: white;
+    }
+    
+    .text_contenu_accueil{
+        padding: 7%;
+    }
+    .acc-body{
+        background-color: rgba(52, 58, 64, 0.8);
+        margin: 0 8% 0 8%;
+        padding: 40px;
+        box-shadow: 15px 15px 15px 15px #00000033;
+    }
+}
+/* Version mobile */
+@media only screen and (max-width: 600px) {
+    .slider{
+        background: linear-gradient(0.35turn, #FFFFFF, #000000 100% );
+        border-bottom: solid black 2px;
+    }
+    .img_contenu_accueil{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .citation{
+        font-size: 15px;
+        font-family: bernier_shade;
+        background-color: #555d66;
+        color: white;
+    }
+    .citation-text{
+        font-size: 20px;
+    }
+}
+/* Version Tablette */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .img_contenu_accueil{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .img_contenu_accueil{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .contenu_accueil{
+        background-color: #555d66;
+        padding: 2% 10% 2% 7%
+    }
+    .acc-body{
+        background-color: rgba(52, 58, 64, 0.8);
+        margin: inherit;
+        padding: 40px;
+        box-shadow: 15px 15px 15px 15px #00000033;
+    }
+}

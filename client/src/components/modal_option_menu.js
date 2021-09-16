@@ -1,0 +1,1 @@
+//creer la requete sur le serveur pour recuperer tout les option menus par rapport au type de plats
